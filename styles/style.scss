@@ -1,0 +1,23 @@
+// home
+@import "../styles/_variables";
+@import "../styles/_global";
+@import "../styles/_utilities";
+@import "../main/_nav";
+@import "../main/_showcase";
+@import "../main/_stats";
+@import "../main/_cli";
+@import "../main/_clound";
+@import "../main/_language";
+@import "../main/_footer";
+
+// features
+@import "../features/_f-head";
+@import "../features/_f-sub-head";
+@import "../features/_f-sub-main";
+
+// docs
+@import "../docs/_d-head";
+@import "../docs/_d-sub-main";
+
+// animation
+@import "../styles/_animation";

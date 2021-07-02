@@ -1,0 +1,32 @@
+.features-main {
+  & .flex {
+    gap: 20px;
+  }
+
+  & .grid {
+    padding: 30px;
+
+    // tablet
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+
+    & .card:first-child {
+      grid-column: 1 / span 3;
+
+      // tablet
+      @media (max-width: 768px) {
+        grid-column: 1;
+      }
+    }
+
+    & .card:nth-child(2) {
+      grid-column: 1 / span 2;
+
+      // tablet
+      @media (max-width: 768px) {
+        grid-column: 1;
+      }
+    }
+  }
+}

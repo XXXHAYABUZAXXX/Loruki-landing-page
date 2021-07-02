@@ -1,0 +1,21 @@
+.features-head {
+  // tablet
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+  & .grid {
+    // tablet
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  & img {
+    width: 200px;
+    justify-self: flex-end;
+
+    // tablet
+    @media (max-width: 768px) {
+      justify-self: center;
+    }
+  }
+}

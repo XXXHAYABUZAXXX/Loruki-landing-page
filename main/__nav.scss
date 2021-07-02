@@ -1,0 +1,37 @@
+.navbar {
+  background: $blue-color;
+  color: $white-color;
+
+  // mobile
+  @media (max-width: 500px) {
+    height: 110px;
+  }
+
+  &__container {
+    justify-content: space-between; // utilities flex
+
+    // mobile
+    @media (max-width: 500px) {
+      flex-direction: column;
+    }
+
+    &--list {
+      gap: 2rem; // utilities flex
+
+      // mobile
+      @media (max-width: 500px) {
+        padding: 10px 25px;
+        background: rgba(0, 0, 0, 0.1);
+      }
+
+      & a {
+        color: $white-color;
+        padding: 10px 0;
+
+        &:hover {
+          border-bottom: 2px solid $white-color;
+        }
+      }
+    }
+  }
+}

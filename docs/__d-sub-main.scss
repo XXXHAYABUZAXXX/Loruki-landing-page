@@ -1,0 +1,30 @@
+.docs-main {
+  & .grid {
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+  }
+
+  & .container .card {
+    &:first-child ul li {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+      font-size: 17px;
+
+      & a:hover {
+        font-weight: bold;
+      }
+    }
+
+    &:last-child h3 {
+      margin: 20px 0;
+    }
+  }
+}
+
+pre,
+code {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}

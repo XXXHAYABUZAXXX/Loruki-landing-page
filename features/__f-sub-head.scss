@@ -1,0 +1,7 @@
+.features-sub-head {
+  @extend .features-head;
+
+  & img {
+    width: 300px;
+  }
+}

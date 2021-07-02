@@ -1,0 +1,13 @@
+.cloud {
+  background: $blue-color;
+  color: #fff;
+
+  &__container {
+    grid-template-columns: 4fr 3fr;
+
+    // tablet
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
